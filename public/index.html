@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Express Project</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<style>
+		#connection-status {
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			margin-top: 1em;
+			float: right;
+		}
+		#connection-status.connected {
+			background-color: green;
+		}
+		#connection-status.disconnected {
+			background-color: red;
+		}
+
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+
+		.btn {
+			margin: 1em;
+		}
+
+		.sticker {
+			max-width: 2em;
+		}
+	
+	</style>
+</head>
+<body>
+	<div id="react-container" class="container">
+		<h1>Loading...</h1>
+	</div>
+	<script src="bundle.js"></script>
+</body>
+</html>
