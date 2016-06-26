@@ -16,7 +16,7 @@ class Header extends React.Component {
 		return (
 			<header className="row">
 				<div className="col-xs-10">
-					<h1>Messages v0.1.3</h1>
+					<h1>Messages v0.1.4</h1>
 					<Display if={this.props.member.name}>
 						<h3>Welcome, {this.props.member.name} <a onClick={this.logout} className="btn btn-danger">Logout</a></h3>
 					</Display>
